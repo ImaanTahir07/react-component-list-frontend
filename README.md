@@ -23,7 +23,7 @@ This is a simple CRUD application that allows users to add, view, and delete pro
 
 ---
 
-## Frontend
+## Frontend 
 
 ### Features
 - Fetch and display a list of projects
