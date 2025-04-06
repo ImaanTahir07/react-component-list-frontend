@@ -1,22 +1,96 @@
-#  BSCS633 – Internet Application Development (IAD)
-## Course Supervisor: Dr.Humera Tariq  
+# Project List App
 
-As a course supervisor, my goal is to provide students with a structured and immersive learning experience in **JavaScript, React, and essentials of web development practices**.  
+This repository contains both the frontend and backend code for the Project List application.
 
-## Course Objectives  
-- Develop a strong sense of ** Internet application development fundamentals**.  
-- Implement **frontend-backend communication** using modern web development standards.  
-- Work on **team-based projects** to encourage collaboration and critical thinking.  
-- Build **scalable and maintainable** applications with a professional code structure.  
+## 📌 Table of Contents
+- [Overview]
+- [Frontend]
+  - [Features]
+  - [Tech Stack]
+  - [Installation]
+  - [Deployment]
+- [Backend]
+  - [API Endpoints]
+  - [Tech Stack]
+  - [Installation]
+  - [Deployment]
+- [Contributing]
+- [License]
 
-## Project Overview  
-- **Technology Stack:** JavaScript (ES6+), React.js, Node.js, Express.js, MongoDB.  
-- **Best Practices:** Modular code, proper folder structuring, RESTful API design.  
-- **Evaluation Criteria:** Code quality, project completion, problem-solving approach, teamwork.  
+---
 
-## Student Expectations  
-- Follow **clean code principles** and proper documentation.  
-- Submit projects via GitHub with clear commit history.  
-- Participate in discussions and peer reviews to enhance learning.  
+## 🌟 Overview
+This is a simple CRUD application that allows users to add, view, and delete projects. The frontend is built with React and deployed on Netlify, while the backend is built with Node.js and Express, and deployed on Vercel.
 
+---
+
+## 🎨 Frontend
+
+### ✨ Features
+- Fetch and display a list of projects
+- Add new projects
+- Delete projects
+
+### 🛠 Tech Stack
+- React.js
+- JavaScript
+- CSS
+- Netlify (Hosting)
+
+### 📥 Installation
+1. **Clone the repository:**
+   ```sh
+   git clone https://github.com/ImaanTahir07/react-component-list-frontend
+   cd project-list-frontend
+   ```
+2. **Install dependencies:**
+   ```sh
+   npm install
+   ```
+3. **Start the development server:**
+   ```sh
+   npm start
+   ```
+
+### 🚀 Deployment
+- The frontend is deployed on Netlify: **[Live Demo](https://extraordinary-pegasus-9d5f62.netlify.app/)**
+
+---
+
+## 🖥 Backend
+
+### 🔗 API Endpoints
+| Method | Endpoint        | Description          |
+|--------|---------------|----------------------|
+| GET    | `/projects`   | Fetch all projects  |
+| POST   | `/projects`   | Add a new project   |
+| DELETE | `/projects/:id` | Delete a project by ID |
+
+### 🛠 Tech Stack
+- Node.js
+- Express.js
+- Vercel (Hosting)
+
+### 📥 Installation
+1. **Clone the repository:**
+   ```sh
+   git clone https://github.com/ImaanTahir07/projectList-assignment-backend
+   cd project-list-backend
+   ```
+2. **Install dependencies:**
+   ```sh
+   npm install
+   ```
+3. **Start the server:**
+   ```sh
+   npm start
+   ```
+
+### 🚀 Deployment
+- The backend is deployed on Vercel: **[API URL](https://project-list-assignment-backend.vercel.app/projects)**
+
+---
+
+## 🤝 Contributing
+Feel free to open issues or submit pull requests for improvements.
 
